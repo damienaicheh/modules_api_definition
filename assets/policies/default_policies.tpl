@@ -3,7 +3,7 @@
     <inbound>
         <base />
         <!-- This is the mandatory policies for the API section -->
-        <include-fragment fragment-id="correlation-id-inbound" />
+        <!-- <include-fragment fragment-id="correlation-id-inbound" /> -->
         <set-header name="api-name" exists-action="append">
             <value>${api_name}</value>
         </set-header>
